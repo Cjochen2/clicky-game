@@ -11,7 +11,7 @@ function Card(props) {
                     onClick={() => props.handleClick(props.id, 1)} />
             </div>
             <div className="content">
-                state: {props.clicked}
+                {/* state: {props.clicked} */}
             </div>
         </div>
     );
